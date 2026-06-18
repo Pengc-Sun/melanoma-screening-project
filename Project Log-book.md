@@ -418,6 +418,10 @@ Formal output directory:
 /Users/spc/skin_app/backend/outputs/baseline_resnet50_image_only_224_8ep
 ```
 
+GitHub evidence repository:
+
+[Experiment 1 — Image-Only ResNet50 Baseline](https://github.com/Pengc-Sun/melanoma-screening-project/tree/main/experiments/baseline)
+
 Generated evidence includes:
 
 - `history.csv`
@@ -476,6 +480,10 @@ Formal output directory:
 /Users/spc/skin_app/backend/outputs/multimodal_resnet50_224_8ep
 ```
 
+GitHub evidence repository:
+
+[Experiment 2 — Multi-Modal Fusion Model](https://github.com/Pengc-Sun/melanoma-screening-project/tree/main/experiments/multimodal)
+
 Generated evidence includes:
 
 - `history.csv`
@@ -515,6 +523,12 @@ Generated evidence includes:
 - The mobile application can complete the full workflow from image selection to prediction result display.
 - The prediction history function makes the system closer to a real mobile application rather than a one-off demo.
 - The result screen should present predictions as screening support, not as final diagnosis.
+
+### Evidence
+
+GitHub evidence repository:
+
+[Experiment 3 — Application Integration Test](https://github.com/Pengc-Sun/melanoma-screening-project/tree/main/experiments/application-integration)
 
 ------
 

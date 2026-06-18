@@ -1,0 +1,18 @@
+section,name,value
+dataset,total_images,33126
+dataset,known_age_count,33126
+dataset,mean_age,48.7697
+dataset,min_age,0.0000
+dataset,max_age,90.0000
+label,benign,32542
+label,malignant,584
+sex,female,15981
+sex,male,17080
+sex,unknown,65
+anatom_site,head/neck,1855
+anatom_site,lower extremity,8417
+anatom_site,oral/genital,124
+anatom_site,palms/soles,375
+anatom_site,torso,16845
+anatom_site,unknown,527
+anatom_site,upper extremity,4983

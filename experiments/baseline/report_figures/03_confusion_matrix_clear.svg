@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="620" viewBox="0 0 780 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#111827}.title{font-size:26px;font-weight:700}.subtitle{font-size:16px;fill:#4b5563}.section{font-size:20px;font-weight:700}.panel-title{font-size:19px;font-weight:700}.tick{font-size:13px;fill:#4b5563}.label{font-size:15px}.label-strong{font-size:18px;font-weight:700}.value{font-size:15px;font-weight:700}.metric{font-size:28px;font-weight:700}.metric-label{font-size:14px;fill:#4b5563}.note{font-size:18px;font-weight:700;fill:#991b1b}.grid{stroke:#e5e7eb;stroke-width:1}.axis{stroke:#d1d5db;stroke-width:1}</style>
+<text class="title" x="70" y="50">Confusion Matrix at Threshold 0.50</text>
+<text class="subtitle" x="70" y="78">Rows are true classes; columns are predicted classes.</text>
+<text class="label" x="238" y="105">Pred benign</text>
+<text class="label" x="388" y="105">Pred malignant</text>
+<text class="label" x="70" y="215">True benign</text>
+<text class="label" x="70" y="375">True malignant</text>
+<rect x="210" y="130" width="160" height="160" fill="rgb(118,122,255)" stroke="#ffffff"/>
+<text class="panel-title" x="268" y="186">TN</text>
+<text class="metric" x="255" y="232">5,916</text>
+<text class="tick" x="264" y="262">89.3%</text>
+<rect x="370" y="130" width="160" height="160" fill="rgb(235,239,255)" stroke="#ffffff"/>
+<text class="panel-title" x="428" y="186">FP</text>
+<text class="metric" x="415" y="232">592</text>
+<text class="tick" x="424" y="262">8.9%</text>
+<rect x="210" y="290" width="160" height="160" fill="rgb(247,251,255)" stroke="#ffffff"/>
+<text class="panel-title" x="268" y="346">FN</text>
+<text class="metric" x="255" y="392">57</text>
+<text class="tick" x="264" y="422">0.9%</text>
+<rect x="370" y="290" width="160" height="160" fill="rgb(247,251,255)" stroke="#ffffff"/>
+<text class="panel-title" x="428" y="346">TP</text>
+<text class="metric" x="415" y="392">60</text>
+<text class="tick" x="424" y="422">0.9%</text>
+</svg>

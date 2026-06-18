@@ -1,0 +1,15 @@
+metric,value
+loss,0.22552794
+accuracy,0.91969811
+auc,0.87419823
+average_precision,0.15193380
+sensitivity_recall_malignant,0.53846154
+specificity,0.92655194
+precision_malignant,0.11645102
+f1_malignant,0.19148936
+balanced_accuracy,0.73250674
+true_negative,6030
+false_positive,478
+false_negative,54
+true_positive,63
+total,6625
