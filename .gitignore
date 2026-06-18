@@ -1,0 +1,17 @@
+.DS_Store
+~$*
+*.inspect.ndjson
+
+# Local environments and secrets
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Datasets and large model checkpoints
+data/
+datasets/
+*.pt
+*.pth
+*.ckpt
