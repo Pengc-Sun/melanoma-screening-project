@@ -1,0 +1,276 @@
+{"kind":"deck","id":"pr/eawpdm","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title and Content","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit subtitle"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Blank","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit slide heading"},{"name":"content placeholder 2","textPreview":"Click to add content"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"3_Blank","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit slide heading"},{"name":"content placeholder 2","textPreview":"Click to add content"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"2_Blank","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit slide heading"},{"name":"content placeholder 2","textPreview":"Click to add content"},{"name":"picture","type":"picture"},{"name":"picture","type":"picture"},{"name":"picture","type":"picture"},{"name":"picture","type":"picture"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"1_Blank","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit slide heading"},{"name":"content placeholder 2","textPreview":"Click to add content"}]}
+{"kind":"slide","id":"sl/2x4nap4r","slide":1,"title":"A Mobile Auxiliary Diagnosis System for Melanoma Based on Multi-Modal Fusion","textShapes":2}
+{"kind":"textbox","id":"sh/nyd0z610","slide":1,"name":"Title 4","placeholder":"title","text":"A Mobile Auxiliary Diagnosis System for Melanoma Based on Multi-Modal Fusion","textPreview":"A Mobile Auxiliary Diagnosis System for Melanoma Based on Multi-Modal Fusion","textChars":76,"textLines":1,"bbox":[53.48,156.55,759.09,77.76]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":1,"name":"Text Placeholder 5","placeholder":"body","text":"Mid-term Project Presentation\nPengcheng Sun | Supervisor: Omid Pournik\n2025-2026","textPreview":"Mid-term Project Presentation | Pengcheng Sun | Supervisor: Omid Pournik | 2025-2026","textChars":80,"textLines":3,"bbox":[53.48,324.83,498.87,40.48]}
+{"kind":"notes","id":"nt/2x4nap4r","slide":1,"text":""}
+{"kind":"slide","id":"sl/pg3ex0nu","slide":2,"title":"Presentation route and assessment coverage","textShapes":6}
+{"kind":"textbox","id":"sh/yxobm58z","slide":2,"name":"slide-title","text":"Presentation route and assessment coverage","textPreview":"Presentation route and assessment coverage","textChars":42,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":2,"name":"section-label","text":"STRUCTURE","textPreview":"STRUCTURE","textChars":9,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/g3ex0nux","slide":2,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":2,"name":"panel-Core argument","bbox":[64,348,365,58]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":2,"name":"head-Core argument","text":"Core argument","textPreview":"Core argument","textChars":13,"textLines":1,"bbox":[76,358,341,22]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":2,"name":"copy-Core argument","text":"Clinical metadata gives useful additional signal, but the system must stay framed as screening support rather than diagnosis.","textPreview":"Clinical metadata gives useful additional signal, but the system must stay framed as screening support rather than diagnosis.","textChars":125,"textLines":1,"bbox":[76,383,341,16]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":2,"name":"panel-Current status","bbox":[455,348,305,58]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":2,"name":"head-Current status","text":"Current status","textPreview":"Current status","textChars":14,"textLines":1,"bbox":[467,358,281,22]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":2,"name":"copy-Current status","text":"Model, backend, Flutter workflow and history storage are implemented; ONNX/local inference remains future work.","textPreview":"Model, backend, Flutter workflow and history storage are implemented; ONNX/local inference remains future work.","textChars":111,"textLines":1,"bbox":[467,383,281,16]}
+{"kind":"table","id":"tb/25kb6xkf","slide":2,"name":"","rows":6,"cols":3,"preview":"Criterion | Where covered | Evidence used","bbox":[64,140,780,205]}
+{"kind":"notes","id":"nt/pg3ex0nu","slide":2,"text":""}
+{"kind":"slide","id":"sl/s72x4nap","slide":3,"title":"Aim, significance and engineering context","textShapes":14}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":3,"name":"slide-title","text":"Aim, significance and engineering context","textPreview":"Aim, significance and engineering context","textChars":41,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":3,"name":"section-label","text":"WHY THIS PROJECT MATTERS","textPreview":"WHY THIS PROJECT MATTERS","textChars":24,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/dsji5sne","slide":3,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":3,"name":"aim-copy","text":"Project aim\n- Build an AI-assisted mobile melanoma screening workflow.\n- Compare image-only ResNet50 with a multi-modal model using image plus age, sex and anatomical site.\n- Deploy the trained model through a FastAPI backend and Flutter app.","textPreview":"Project aim | - Build an AI-assisted mobile melanoma screening workflow. | - Compare image-only ResNet50 with a multi-modal model using i...","textChars":242,"textLines":4,"bbox":[64,140,470,122]}
+{"kind":"shape","id":"sh/vy90je9c","slide":3,"name":"metric-ISIC2020 prepared images","bbox":[568,142,122,84]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":3,"name":"metric-value-ISIC2020 prepared images","text":"33,126","textPreview":"33,126","textChars":6,"textLines":1,"bbox":[580,154,98,34]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":3,"name":"metric-label-ISIC2020 prepared images","text":"ISIC2020 prepared images","textPreview":"ISIC2020 prepared images","textChars":24,"textLines":1,"bbox":[580,190,98,30]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":3,"name":"metric-malignant cases in prepared data","bbox":[708,142,122,84]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":3,"name":"metric-value-malignant cases in prepared data","text":"584","textPreview":"584","textChars":3,"textLines":1,"bbox":[720,154,98,34]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":3,"name":"metric-label-malignant cases in prepared data","text":"malignant cases in prepared data","textPreview":"malignant cases in prepared data","textChars":32,"textLines":1,"bbox":[720,190,98,30]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":3,"name":"panel-Problem","bbox":[64,285,245,116]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":3,"name":"head-Problem","text":"Problem","textPreview":"Problem","textChars":7,"textLines":1,"bbox":[76,295,221,22]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":3,"name":"copy-Problem","text":"Melanoma is rare in the dataset but clinically high impact. This makes accuracy alone unsafe as a headline metric.","textPreview":"Melanoma is rare in the dataset but clinically high impact. This makes accuracy alone unsafe as a headline metric.","textChars":114,"textLines":1,"bbox":[76,320,221,74]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":3,"name":"panel-Engineering need","bbox":[330,285,245,116]}
+{"kind":"textbox","id":"sh/61032lsz","slide":3,"name":"head-Engineering need","text":"Engineering need","textPreview":"Engineering need","textChars":16,"textLines":1,"bbox":[342,295,221,22]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":3,"name":"copy-Engineering need","text":"A model result must be connected to usable software: image input, clinical metadata, authenticated API calls and saved history.","textPreview":"A model result must be connected to usable software: image input, clinical metadata, authenticated API calls and saved history.","textChars":127,"textLines":1,"bbox":[342,320,221,74]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":3,"name":"panel-Intended outcome","bbox":[596,285,245,116]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":3,"name":"head-Intended outcome","text":"Intended outcome","textPreview":"Intended outcome","textChars":16,"textLines":1,"bbox":[608,295,221,22]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":3,"name":"copy-Intended outcome","text":"A traceable prototype that supports screening discussion, not an autonomous medical diagnosis.","textPreview":"A traceable prototype that supports screening discussion, not an autonomous medical diagnosis.","textChars":94,"textLines":1,"bbox":[608,320,221,74]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":3,"name":"source-note","text":"Sources: Project log-book; ISIC2020 prepared dataset summary.","textPreview":"Sources: Project log-book; ISIC2020 prepared dataset summary.","textChars":61,"textLines":1,"bbox":[64,470,820,18]}
+{"kind":"notes","id":"nt/s72x4nap","slide":3,"text":""}
+{"kind":"slide","id":"sl/val87ed8","slide":4,"title":"Previous work informs the design choice","textShapes":10}
+{"kind":"textbox","id":"sh/1gvy90je","slide":4,"name":"slide-title","text":"Previous work informs the design choice","textPreview":"Previous work informs the design choice","textChars":39,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":4,"name":"section-label","text":"LITERATURE AND RATIONALE","textPreview":"LITERATURE AND RATIONALE","textChars":24,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/je9cvixc","slide":4,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"shape","id":"sh/87ed8bat","slide":4,"name":"panel-Skin lesion CNNs","bbox":[64,138,230,166]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":4,"name":"head-Skin lesion CNNs","text":"Skin lesion CNNs","textPreview":"Skin lesion CNNs","textChars":16,"textLines":1,"bbox":[76,148,206,22]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":4,"name":"copy-Skin lesion CNNs","text":"Prior work shows CNNs can classify skin lesions from images, but clinical deployment requires careful framing and validation.","textPreview":"Prior work shows CNNs can classify skin lesions from images, but clinical deployment requires careful framing and validation.","textChars":125,"textLines":1,"bbox":[76,173,206,124]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":4,"name":"panel-ResNet50 baseline","bbox":[325,138,230,166]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":4,"name":"head-ResNet50 baseline","text":"ResNet50 baseline","textPreview":"ResNet50 baseline","textChars":17,"textLines":1,"bbox":[337,148,206,22]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":4,"name":"copy-ResNet50 baseline","text":"Residual learning provides a stable pretrained image backbone. It is used here as the image-only comparator.","textPreview":"Residual learning provides a stable pretrained image backbone. It is used here as the image-only comparator.","textChars":108,"textLines":1,"bbox":[337,173,206,124]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":4,"name":"panel-ISIC2020 dataset","bbox":[586,138,230,166]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":4,"name":"head-ISIC2020 dataset","text":"ISIC2020 dataset","textPreview":"ISIC2020 dataset","textChars":16,"textLines":1,"bbox":[598,148,206,22]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":4,"name":"copy-ISIC2020 dataset","text":"ISIC2020 provides dermoscopic images with metadata fields that match the multi-modal research question.","textPreview":"ISIC2020 provides dermoscopic images with metadata fields that match the multi-modal research question.","textChars":103,"textLines":1,"bbox":[598,173,206,124]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":4,"name":"rationale","text":"Design implication\n- Use image-only ResNet50 first, then add a compact clinical MLP branch.\n- Compare both models on the same validation split.\n- Report AUC, average precision, recall, F1 and balanced accuracy because class imbalance is severe.","textPreview":"Design implication | - Use image-only ResNet50 first, then add a compact clinical MLP branch. | - Compare both models on the same validat...","textChars":244,"textLines":4,"bbox":[80,335,735,78]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":4,"name":"source-note","text":"References: He et al. 2016; Esteva et al. 2017; ISIC Challenge Datasets; SIIM-ISIC 2020 challenge article.","textPreview":"References: He et al. 2016; Esteva et al. 2017; ISIC Challenge Datasets; SIIM-ISIC 2020 challenge article.","textChars":106,"textLines":1,"bbox":[64,470,820,18]}
+{"kind":"notes","id":"nt/val87ed8","slide":4,"text":""}
+{"kind":"slide","id":"sl/mlkjm1cf","slide":5,"title":"Requirements, stakeholders and constraints","textShapes":6}
+{"kind":"textbox","id":"sh/vahoza1g","slide":5,"name":"slide-title","text":"Requirements, stakeholders and constraints","textPreview":"Requirements, stakeholders and constraints","textChars":42,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":5,"name":"section-label","text":"PROBLEM BOUNDARIES","textPreview":"PROBLEM BOUNDARIES","textChars":18,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/dg7adsji","slide":5,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"shape","id":"sh/onyd0z61","slide":5,"name":"panel-Legal and societal position","bbox":[64,340,365,72]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":5,"name":"head-Legal and societal position","text":"Legal and societal position","textPreview":"Legal and societal position","textChars":27,"textLines":1,"bbox":[76,350,341,22]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":5,"name":"copy-Legal and societal position","text":"The application prototype stores local demo account/history data and must not be presented as replacing professional medical diagnosis.","textPreview":"The application prototype stores local demo account/history data and must not be presented as replacing professional medical diagnosis.","textChars":135,"textLines":1,"bbox":[76,375,341,30]}
+{"kind":"shape","id":"sh/vy90je9c","slide":5,"name":"panel-Engineering success condition","bbox":[455,340,365,72]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":5,"name":"head-Engineering success condition","text":"Engineering success condition","textPreview":"Engineering success condition","textChars":29,"textLines":1,"bbox":[467,350,341,22]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":5,"name":"copy-Engineering success condition","text":"The model, backend and mobile app must agree on preprocessing, metadata encoding and prediction semantics.","textPreview":"The model, backend and mobile app must agree on preprocessing, metadata encoding and prediction semantics.","textChars":106,"textLines":1,"bbox":[467,375,341,30]}
+{"kind":"table","id":"tb/bat47y1k","slide":5,"name":"","rows":5,"cols":2,"preview":"Stakeholder | Need","bbox":[64,138,390,172]}
+{"kind":"table","id":"tb/mp0bi9s3","slide":5,"name":"","rows":5,"cols":2,"preview":"Constraint | Design response","bbox":[486,138,350,172]}
+{"kind":"notes","id":"nt/mlkjm1cf","slide":5,"text":""}
+{"kind":"slide","id":"sl/58z25kb6","slide":6,"title":"Integrated application data flow","textShapes":35}
+{"kind":"textbox","id":"sh/9cvixcze","slide":6,"name":"slide-title","text":"Integrated application data flow","textPreview":"Integrated application data flow","textChars":32,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":6,"name":"section-label","text":"SYSTEM ARCHITECTURE","textPreview":"SYSTEM ARCHITECTURE","textChars":19,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/r65wjudg","slide":6,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":6,"name":"request-flow-label","text":"1. Prediction request flow","textPreview":"1. Prediction request flow","textChars":26,"textLines":1,"bbox":[64,130,250,18]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":6,"name":"process-User inputs","bbox":[64,158,125,70]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":6,"name":"process-title-User inputs","text":"User inputs","textPreview":"User inputs","textChars":11,"textLines":1,"bbox":[74,167,105,20]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":6,"name":"process-copy-User inputs","text":"lesion image +\nage, sex, site","textPreview":"lesion image + | age, sex, site","textChars":29,"textLines":2,"bbox":[74,191,105,34]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":6,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[194,182,32,20]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":6,"name":"process-Flutter form","bbox":[230,158,125,70]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":6,"name":"process-title-Flutter form","text":"Flutter form","textPreview":"Flutter form","textChars":12,"textLines":1,"bbox":[240,167,105,20]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":6,"name":"process-copy-Flutter form","text":"select/capture image\nvalidate fields","textPreview":"select/capture image | validate fields","textChars":36,"textLines":2,"bbox":[240,191,105,34]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":6,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[360,182,32,20]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":6,"name":"process-POST /predict","bbox":[396,158,125,70]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":6,"name":"process-title-POST /predict","text":"POST /predict","textPreview":"POST /predict","textChars":13,"textLines":1,"bbox":[406,167,105,20]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":6,"name":"process-copy-POST /predict","text":"multipart form +\nBearer JWT","textPreview":"multipart form + | Bearer JWT","textChars":27,"textLines":2,"bbox":[406,191,105,34]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":6,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[526,182,32,20]}
+{"kind":"shape","id":"sh/6tovahoz","slide":6,"name":"process-FastAPI","bbox":[562,158,125,70]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":6,"name":"process-title-FastAPI","text":"FastAPI","textPreview":"FastAPI","textChars":7,"textLines":1,"bbox":[572,167,105,20]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":6,"name":"process-copy-FastAPI","text":"authenticate +\ndecode image","textPreview":"authenticate + | decode image","textChars":27,"textLines":2,"bbox":[572,191,105,34]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":6,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[692,182,32,20]}
+{"kind":"shape","id":"sh/94fu18jq","slide":6,"name":"process-Inference","bbox":[728,158,125,70]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":6,"name":"process-title-Inference","text":"Inference","textPreview":"Inference","textChars":9,"textLines":1,"bbox":[738,167,105,20]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":6,"name":"process-copy-Inference","text":"preprocess -> fusion\nmodel -> top-k","textPreview":"preprocess -> fusion | model -> top-k","textChars":35,"textLines":2,"bbox":[738,191,105,34]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":6,"name":"response-flow-label","text":"2. Output branches","textPreview":"2. Output branches","textChars":18,"textLines":1,"bbox":[64,252,310,18]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":6,"name":"response-branch-label","text":"Response branch","textPreview":"Response branch","textChars":15,"textLines":1,"bbox":[64,274,180,16]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":6,"name":"persistence-branch-label","text":"Persistence and retrieval branch","textPreview":"Persistence and retrieval branch","textChars":32,"textLines":1,"bbox":[396,274,240,16]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":6,"name":"process-Prediction JSON","bbox":[64,294,125,62]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":6,"name":"process-title-Prediction JSON","text":"Prediction JSON","textPreview":"Prediction JSON","textChars":15,"textLines":1,"bbox":[74,303,105,20]}
+{"kind":"textbox","id":"sh/9knih4by","slide":6,"name":"process-copy-Prediction JSON","text":"label, confidence,\ntop-k, disclaimer","textPreview":"label, confidence, | top-k, disclaimer","textChars":36,"textLines":2,"bbox":[74,327,105,26]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":6,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[194,315,32,20]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":6,"name":"process-Result screen","bbox":[230,294,125,62]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":6,"name":"process-title-Result screen","text":"Result screen","textPreview":"Result screen","textChars":13,"textLines":1,"bbox":[240,303,105,20]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":6,"name":"process-copy-Result screen","text":"Flutter displays\nscreening output","textPreview":"Flutter displays | screening output","textChars":33,"textLines":2,"bbox":[240,327,105,26]}
+{"kind":"shape","id":"sh/fyxobm58","slide":6,"name":"process-History write","bbox":[396,294,125,62]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":6,"name":"process-title-History write","text":"History write","textPreview":"History write","textChars":13,"textLines":1,"bbox":[406,303,105,20]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":6,"name":"process-copy-History write","text":"user ID + inputs +\nprediction record","textPreview":"user ID + inputs + | prediction record","textChars":36,"textLines":2,"bbox":[406,327,105,26]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":6,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[526,315,32,20]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":6,"name":"process-SQLite","bbox":[562,294,125,62]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":6,"name":"process-title-SQLite","text":"SQLite","textPreview":"SQLite","textChars":6,"textLines":1,"bbox":[572,303,105,20]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":6,"name":"process-copy-SQLite","text":"prediction_history\ntable","textPreview":"prediction_history | table","textChars":24,"textLines":2,"bbox":[572,327,105,26]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":6,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[692,315,32,20]}
+{"kind":"shape","id":"sh/obm58z25","slide":6,"name":"process-History screen","bbox":[728,294,125,62]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":6,"name":"process-title-History screen","text":"History screen","textPreview":"History screen","textChars":14,"textLines":1,"bbox":[738,303,105,20]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":6,"name":"process-copy-History screen","text":"GET /history ->\nFlutter list","textPreview":"GET /history -> | Flutter list","textChars":28,"textLines":2,"bbox":[738,327,105,26]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":6,"name":"flow-branch-note","text":"FastAPI returns the JSON result to the current screen and, in parallel, stores the authenticated prediction so it can be retrieved later.","textPreview":"FastAPI returns the JSON result to the current screen and, in parallel, stores the authenticated prediction so it can be retrieved later.","textChars":137,"textLines":1,"bbox":[392,365,462,34]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":6,"name":"source-note","text":"Sources: backend/app.py; backend/auth.py; lib/backend_api.dart; lib/detection.dart; lib/history.dart.","textPreview":"Sources: backend/app.py; backend/auth.py; lib/backend_api.dart; lib/detection.dart; lib/history.dart.","textChars":101,"textLines":1,"bbox":[64,470,820,18]}
+{"kind":"notes","id":"nt/58z25kb6","slide":6,"text":""}
+{"kind":"slide","id":"sl/0z61032l","slide":7,"title":"Dataset processing and stratified split","textShapes":20}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":7,"name":"slide-title","text":"Dataset processing and stratified split","textPreview":"Dataset processing and stratified split","textChars":39,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":7,"name":"section-label","text":"METHODS","textPreview":"METHODS","textChars":7,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":7,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":7,"name":"data-pipeline-label","text":"Dataset preparation pipeline","textPreview":"Dataset preparation pipeline","textChars":28,"textLines":1,"bbox":[64,128,260,18]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":7,"name":"process-Raw ISIC2020","bbox":[64,154,145,68]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":7,"name":"process-title-Raw ISIC2020","text":"Raw ISIC2020","textPreview":"Raw ISIC2020","textChars":12,"textLines":1,"bbox":[74,163,125,20]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":7,"name":"process-copy-Raw ISIC2020","text":"33,126 JPEGs +\nground-truth CSV","textPreview":"33,126 JPEGs + | ground-truth CSV","textChars":31,"textLines":2,"bbox":[74,187,125,32]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":7,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[214,178,30,20]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":7,"name":"process-Validate + label","bbox":[248,154,145,68]}
+{"kind":"textbox","id":"sh/svu9knih","slide":7,"name":"process-title-Validate + label","text":"Validate + label","textPreview":"Validate + label","textChars":16,"textLines":1,"bbox":[258,163,125,20]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":7,"name":"process-copy-Validate + label","text":"resolve file path;\nnormalize target","textPreview":"resolve file path; | normalize target","textChars":35,"textLines":2,"bbox":[258,187,125,32]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":7,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[398,178,30,20]}
+{"kind":"shape","id":"sh/za1gvy90","slide":7,"name":"process-Prepared dataset","bbox":[432,154,160,68]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":7,"name":"process-title-Prepared dataset","text":"Prepared dataset","textPreview":"Prepared dataset","textChars":16,"textLines":1,"bbox":[442,163,140,20]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":7,"name":"process-copy-Prepared dataset","text":"benign/malignant folders\n+ clinical_metadata.csv","textPreview":"benign/malignant folders | + clinical_metadata.csv","textChars":48,"textLines":2,"bbox":[442,187,140,32]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":7,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[597,178,30,20]}
+{"kind":"shape","id":"sh/zidonyd0","slide":7,"name":"process-PyTorch dataset","bbox":[631,154,190,68]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":7,"name":"process-title-PyTorch dataset","text":"PyTorch dataset","textPreview":"PyTorch dataset","textChars":15,"textLines":1,"bbox":[641,163,170,20]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":7,"name":"process-copy-PyTorch dataset","text":"RGB image tensor +\n12-D clinical vector + label","textPreview":"RGB image tensor + | 12-D clinical vector + label","textChars":47,"textLines":2,"bbox":[641,187,170,32]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":7,"name":"split-label","text":"Stratified 80/20 split, fixed seed 42","textPreview":"Stratified 80/20 split, fixed seed 42","textChars":37,"textLines":1,"bbox":[64,242,350,18]}
+{"kind":"shape","id":"sh/7adsji5s","slide":7,"name":"panel-Clinical encoding","bbox":[592,260,238,124]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":7,"name":"head-Clinical encoding","text":"Clinical encoding","textPreview":"Clinical encoding","textChars":17,"textLines":1,"bbox":[604,270,214,22]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":7,"name":"copy-Clinical encoding","text":"Age is divided by 100. Sex uses 4 one-hot categories and anatomical site uses 7 one-hot categories, giving a 12-dimensional vector. Missing values map to 'unknown'.","textPreview":"Age is divided by 100. Sex uses 4 one-hot categories and anatomical site uses 7 one-hot categories, giving a 12-dimensional vector. Missi...","textChars":164,"textLines":1,"bbox":[604,295,214,82]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":7,"name":"train-transform-line","text":"Training transforms: random resized crop to 224, horizontal flip, rotation, colour jitter and ImageNet normalization.","textPreview":"Training transforms: random resized crop to 224, horizontal flip, rotation, colour jitter and ImageNet normalization.","textChars":117,"textLines":1,"bbox":[64,399,760,22]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":7,"name":"val-transform-line","text":"Validation transforms: resize to 256, center crop to 224 and ImageNet normalization; no random augmentation.","textPreview":"Validation transforms: resize to 256, center crop to 224 and ImageNet normalization; no random augmentation.","textChars":108,"textLines":1,"bbox":[64,425,760,22]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":7,"name":"source-note","text":"Source: backend/train_src/prepare_isic2020.py and backend/train_src/dataset.py.","textPreview":"Source: backend/train_src/prepare_isic2020.py and backend/train_src/dataset.py.","textChars":79,"textLines":1,"bbox":[64,470,820,18]}
+{"kind":"table","id":"tb/vu9knih4","slide":7,"name":"","rows":4,"cols":5,"preview":"Subset | Total | Benign | Malignant | Loader behavior","bbox":[64,268,500,116]}
+{"kind":"notes","id":"nt/0z61032l","slide":7,"text":""}
+{"kind":"slide","id":"sl/fu18jqh0","slide":8,"title":"Model design and method justification","textShapes":18}
+{"kind":"textbox","id":"sh/1032lszq","slide":8,"name":"slide-title","text":"Model design and method justification","textPreview":"Model design and method justification","textChars":37,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":8,"name":"section-label","text":"MULTI-MODAL FUSION","textPreview":"MULTI-MODAL FUSION","textChars":18,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/judg7ads","slide":8,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"shape","id":"sh/c7u54zid","slide":8,"name":"process-Image branch","bbox":[80,150,145,70]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":8,"name":"process-title-Image branch","text":"Image branch","textPreview":"Image branch","textChars":12,"textLines":1,"bbox":[90,159,125,20]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":8,"name":"process-copy-Image branch","text":"224 x 224 lesion image","textPreview":"224 x 224 lesion image","textChars":22,"textLines":1,"bbox":[90,183,125,34]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":8,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[236,174,34,20]}
+{"kind":"shape","id":"sh/cvixczed","slide":8,"name":"process-ResNet50","bbox":[285,150,145,70]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":8,"name":"process-title-ResNet50","text":"ResNet50","textPreview":"ResNet50","textChars":8,"textLines":1,"bbox":[295,159,125,20]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":8,"name":"process-copy-ResNet50","text":"pretrained feature extractor","textPreview":"pretrained feature extractor","textChars":28,"textLines":1,"bbox":[295,183,125,34]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":8,"name":"process-Clinical branch","bbox":[80,270,145,70]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":8,"name":"process-title-Clinical branch","text":"Clinical branch","textPreview":"Clinical branch","textChars":15,"textLines":1,"bbox":[90,279,125,20]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":8,"name":"process-copy-Clinical branch","text":"age, sex, anatomical site","textPreview":"age, sex, anatomical site","textChars":25,"textLines":1,"bbox":[90,303,125,34]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":8,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[236,294,34,20]}
+{"kind":"shape","id":"sh/8bat47y1","slide":8,"name":"process-MLP","bbox":[285,270,145,70]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":8,"name":"process-title-MLP","text":"MLP","textPreview":"MLP","textChars":3,"textLines":1,"bbox":[295,279,125,20]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":8,"name":"process-copy-MLP","text":"128-dim metadata feature","textPreview":"128-dim metadata feature","textChars":24,"textLines":1,"bbox":[295,303,125,34]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":8,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[446,220,34,20]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":8,"name":"process-Concatenate","bbox":[495,210,130,70]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":8,"name":"process-title-Concatenate","text":"Concatenate","textPreview":"Concatenate","textChars":11,"textLines":1,"bbox":[505,219,110,20]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":8,"name":"process-copy-Concatenate","text":"image + clinical features","textPreview":"image + clinical features","textChars":25,"textLines":1,"bbox":[505,243,110,34]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":8,"name":"arrow","text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[640,234,34,20]}
+{"kind":"shape","id":"sh/z61032ls","slide":8,"name":"process-Classifier","bbox":[690,210,132,70]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":8,"name":"process-title-Classifier","text":"Classifier","textPreview":"Classifier","textChars":10,"textLines":1,"bbox":[700,219,112,20]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":8,"name":"process-copy-Classifier","text":"benign / malignant","textPreview":"benign / malignant","textChars":18,"textLines":1,"bbox":[700,243,112,34]}
+{"kind":"table","id":"tb/xobm58z2","slide":8,"name":"","rows":4,"cols":2,"preview":"Training setting | Value","bbox":[80,370,730,62]}
+{"kind":"notes","id":"nt/fu18jqh0","slide":8,"text":""}
+{"kind":"slide","id":"sl/qh0fepkz","slide":9,"title":"Progress to date: tangible deliverables","textShapes":9}
+{"kind":"textbox","id":"sh/vahoza1g","slide":9,"name":"slide-title","text":"Progress to date: tangible deliverables","textPreview":"Progress to date: tangible deliverables","textChars":39,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":9,"name":"section-label","text":"IMPLEMENTATION","textPreview":"IMPLEMENTATION","textChars":14,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/dg7adsji","slide":9,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":9,"name":"panel-Model training","bbox":[64,138,240,96]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":9,"name":"head-Model training","text":"Model training","textPreview":"Model training","textChars":14,"textLines":1,"bbox":[76,148,216,22]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":9,"name":"copy-Model training","text":"Formal image-only and multi-modal experiments completed; CSV metrics, predictions and figures generated.","textPreview":"Formal image-only and multi-modal experiments completed; CSV metrics, predictions and figures generated.","textChars":104,"textLines":1,"bbox":[76,173,216,54]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":9,"name":"panel-Backend","bbox":[332,138,240,96]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":9,"name":"head-Backend","text":"Backend","textPreview":"Backend","textChars":7,"textLines":1,"bbox":[344,148,216,22]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":9,"name":"copy-Backend","text":"FastAPI loads the trained checkpoint, accepts image and metadata fields, returns top-k prediction and disclaimer.","textPreview":"FastAPI loads the trained checkpoint, accepts image and metadata fields, returns top-k prediction and disclaimer.","textChars":113,"textLines":1,"bbox":[344,173,216,54]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":9,"name":"panel-Mobile app","bbox":[600,138,240,96]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":9,"name":"head-Mobile app","text":"Mobile app","textPreview":"Mobile app","textChars":10,"textLines":1,"bbox":[612,148,216,22]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":9,"name":"copy-Mobile app","text":"Flutter screens support login/session flow, lesion image input, clinical form, prediction display and history.","textPreview":"Flutter screens support login/session flow, lesion image input, clinical form, prediction display and history.","textChars":110,"textLines":1,"bbox":[612,173,216,54]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":9,"name":"source-note","text":"Sources: backend/app.py; backend/auth.py; lib/detection.dart; lib/backend_api.dart; lib/history.dart.","textPreview":"Sources: backend/app.py; backend/auth.py; lib/detection.dart; lib/backend_api.dart; lib/history.dart.","textChars":101,"textLines":1,"bbox":[64,470,820,18]}
+{"kind":"table","id":"tb/3ylc7u54","slide":9,"name":"","rows":5,"cols":2,"preview":"Component | Implemented evidence","bbox":[80,272,730,122]}
+{"kind":"notes","id":"nt/qh0fepkz","slide":9,"text":""}
+{"kind":"slide","id":"sl/29gr2p8n","slide":10,"title":"Initial results: multi-modal model improves the baseline","textShapes":5}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":10,"name":"slide-title","text":"Initial results: multi-modal model improves the baseline","textPreview":"Initial results: multi-modal model improves the baseline","textChars":56,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":10,"name":"section-label","text":"RESULTS","textPreview":"RESULTS","textChars":7,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/gvy90je9","slide":10,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"shape","id":"sh/94fu18jq","slide":10,"name":"panel-Interpretation","bbox":[610,330,238,68]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":10,"name":"head-Interpretation","text":"Interpretation","textPreview":"Interpretation","textChars":14,"textLines":1,"bbox":[622,340,214,22]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":10,"name":"copy-Interpretation","text":"Fusion improved AUC, average precision, malignant recall, F1 and balanced accuracy on the same validation size of 6,625.","textPreview":"Fusion improved AUC, average precision, malignant recall, F1 and balanced accuracy on the same validation size of 6,625.","textChars":120,"textLines":1,"bbox":[622,365,214,26]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":10,"name":"source-note","text":"Source: metrics_summary.csv from formal baseline and multi-modal experiment folders.","textPreview":"Source: metrics_summary.csv from formal baseline and multi-modal experiment folders.","textChars":84,"textLines":1,"bbox":[64,470,820,18]}
+{"kind":"chart","id":"ch/r65wjudg","slide":10,"name":"","chartType":"bar","bbox":[62,145,520,255]}
+{"kind":"table","id":"tb/3itgfmlk","slide":10,"name":"","rows":6,"cols":3,"preview":"Metric | Image | Fusion","bbox":[610,145,238,166]}
+{"kind":"notes","id":"nt/29gr2p8n","slide":10,"text":""}
+{"kind":"slide","id":"sl/re1w7mp0","slide":11,"title":"Discussion of results and remaining limitations","textShapes":12}
+{"kind":"textbox","id":"sh/dg7adsji","slide":11,"name":"slide-title","text":"Discussion of results and remaining limitations","textPreview":"Discussion of results and remaining limitations","textChars":47,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":11,"name":"section-label","text":"ANALYSIS","textPreview":"ANALYSIS","textChars":8,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/vahoza1g","slide":11,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":11,"name":"panel-What improved","bbox":[460,138,360,68]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":11,"name":"head-What improved","text":"What improved","textPreview":"What improved","textChars":13,"textLines":1,"bbox":[472,148,336,22]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":11,"name":"copy-What improved","text":"False positives reduced from 592 to 478; true positives increased from 60 to 63.","textPreview":"False positives reduced from 592 to 478; true positives increased from 60 to 63.","textChars":80,"textLines":1,"bbox":[472,173,336,26]}
+{"kind":"shape","id":"sh/oj2t83it","slide":11,"name":"panel-What still limits the model","bbox":[460,220,360,68]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":11,"name":"head-What still limits the model","text":"What still limits the model","textPreview":"What still limits the model","textChars":27,"textLines":1,"bbox":[472,230,336,22]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":11,"name":"copy-What still limits the model","text":"The malignant class remains small, so precision and F1 are still low even when AUC and specificity improve.","textPreview":"The malignant class remains small, so precision and F1 are still low even when AUC and specificity improve.","textChars":107,"textLines":1,"bbox":[472,255,336,26]}
+{"kind":"shape","id":"sh/sji5snel","slide":11,"name":"panel-Next technical step","bbox":[64,315,240,90]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":11,"name":"head-Next technical step","text":"Next technical step","textPreview":"Next technical step","textChars":19,"textLines":1,"bbox":[76,325,216,22]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":11,"name":"copy-Next technical step","text":"Threshold analysis should guide the screening operating point instead of default argmax alone.","textPreview":"Threshold analysis should guide the screening operating point instead of default argmax alone.","textChars":94,"textLines":1,"bbox":[76,350,216,48]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":11,"name":"panel-App implication","bbox":[330,315,240,90]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":11,"name":"head-App implication","text":"App implication","textPreview":"App implication","textChars":15,"textLines":1,"bbox":[342,325,216,22]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":11,"name":"copy-App implication","text":"The UI should show confidence as screening support with a visible medical limitation statement.","textPreview":"The UI should show confidence as screening support with a visible medical limitation statement.","textChars":95,"textLines":1,"bbox":[342,350,216,48]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":11,"name":"panel-Evaluation implication","bbox":[596,315,240,90]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":11,"name":"head-Evaluation implication","text":"Evaluation implication","textPreview":"Evaluation implication","textChars":22,"textLines":1,"bbox":[608,325,216,22]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":11,"name":"copy-Evaluation implication","text":"Future testing should include more robustness checks and explicit subgroup analysis where data permits.","textPreview":"Future testing should include more robustness checks and explicit subgroup analysis where data permits.","textChars":103,"textLines":1,"bbox":[608,350,216,48]}
+{"kind":"table","id":"tb/pg3ex0nu","slide":11,"name":"","rows":3,"cols":5,"preview":"Confusion matrix | TN | FP | FN | TP","bbox":[64,138,360,142]}
+{"kind":"notes","id":"nt/re1w7mp0","slide":11,"text":""}
+{"kind":"slide","id":"sl/4fu18jqh","slide":12,"title":"Management plan, feedback response, risk and ethics","textShapes":27}
+{"kind":"textbox","id":"sh/3m94fu18","slide":12,"name":"slide-title","text":"Management plan, feedback response, risk and ethics","textPreview":"Management plan, feedback response, risk and ethics","textChars":51,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":12,"name":"section-label","text":"PROJECT CONTROL","textPreview":"PROJECT CONTROL","textChars":15,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":12,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":12,"name":"gantt-title","text":"12-week plan and current position","textPreview":"12-week plan and current position","textChars":33,"textLines":1,"bbox":[64,108,770,20]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":12,"name":"week-1","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[190,132,36,14]}
+{"kind":"textbox","id":"sh/sji5snel","slide":12,"name":"week-2","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[239,132,36,14]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":12,"name":"week-3","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[288,132,36,14]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":12,"name":"week-4","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[337,132,36,14]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":12,"name":"week-5","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[386,132,36,14]}
+{"kind":"textbox","id":"sh/z61032ls","slide":12,"name":"week-6","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[435,132,36,14]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":12,"name":"week-7","text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[484,132,36,14]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":12,"name":"week-8","text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[533,132,36,14]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":12,"name":"week-9","text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[582,132,36,14]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":12,"name":"week-10","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[631,132,36,14]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":12,"name":"week-11","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[680,132,36,14]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":12,"name":"week-12","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[729,132,36,14]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":12,"name":"gantt-label-0","text":"Research + dataset","textPreview":"Research + dataset","textChars":18,"textLines":1,"bbox":[64,150,118,16]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":12,"name":"gantt-bar-0","bbox":[190,152,90,14]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":12,"name":"gantt-label-1","text":"Baseline + fusion model","textPreview":"Baseline + fusion model","textChars":23,"textLines":1,"bbox":[64,172,118,16]}
+{"kind":"shape","id":"sh/ed8bat47","slide":12,"name":"gantt-bar-1","bbox":[288,174,139,14]}
+{"kind":"textbox","id":"sh/7u54zido","slide":12,"name":"gantt-label-2","text":"Evaluation + figures","textPreview":"Evaluation + figures","textChars":20,"textLines":1,"bbox":[64,194,118,16]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":12,"name":"gantt-bar-2","bbox":[386,196,90,14]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":12,"name":"gantt-label-3","text":"Backend + app integration","textPreview":"Backend + app integration","textChars":25,"textLines":1,"bbox":[64,216,118,16]}
+{"kind":"shape","id":"sh/eloj2t83","slide":12,"name":"gantt-bar-3","bbox":[484,218,139,14]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":12,"name":"gantt-label-4","text":"Testing + report","textPreview":"Testing + report","textChars":16,"textLines":1,"bbox":[64,238,118,16]}
+{"kind":"shape","id":"sh/wra5gbq1","slide":12,"name":"gantt-bar-4","bbox":[631,240,139,14]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":12,"name":"current-marker","bbox":[602,146,0,108]}
+{"kind":"shape","id":"sh/epkzupwb","slide":12,"name":"panel-Plan refinements after review","bbox":[64,270,245,106]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":12,"name":"head-Plan refinements after review","text":"Plan refinements after review","textPreview":"Plan refinements after review","textChars":29,"textLines":1,"bbox":[76,280,221,22]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":12,"name":"copy-Plan refinements after review","text":"Scope narrowed to a backend PyTorch deployment for mid-term stability; ONNX/local inference moved to future work; baseline comparison kept central.","textPreview":"Scope narrowed to a backend PyTorch deployment for mid-term stability; ONNX/local inference moved to future work; baseline comparison kep...","textChars":147,"textLines":1,"bbox":[76,305,221,64]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":12,"name":"panel-Main risks","bbox":[333,270,245,106]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":12,"name":"head-Main risks","text":"Main risks","textPreview":"Main risks","textChars":10,"textLines":1,"bbox":[345,280,221,22]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":12,"name":"copy-Main risks","text":"Class imbalance, overfitting, preprocessing mismatch, missing metadata and user misunderstanding of medical output.","textPreview":"Class imbalance, overfitting, preprocessing mismatch, missing metadata and user misunderstanding of medical output.","textChars":115,"textLines":1,"bbox":[345,305,221,64]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":12,"name":"panel-Ethics controls","bbox":[602,270,245,106]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":12,"name":"head-Ethics controls","text":"Ethics controls","textPreview":"Ethics controls","textChars":15,"textLines":1,"bbox":[614,280,221,22]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":12,"name":"copy-Ethics controls","text":"Use public research data only, store prototype history locally, avoid diagnostic claims and include a medical disclaimer.","textPreview":"Use public research data only, store prototype history locally, avoid diagnostic claims and include a medical disclaimer.","textChars":121,"textLines":1,"bbox":[614,305,221,64]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":12,"name":"source-note","text":"Source: Project log-book risk assessment, ethics assessment and management plan.","textPreview":"Source: Project log-book risk assessment, ethics assessment and management plan.","textChars":80,"textLines":1,"bbox":[64,470,820,18]}
+{"kind":"notes","id":"nt/4fu18jqh","slide":12,"text":""}
+{"kind":"slide","id":"sl/lwval87e","slide":13,"title":"Conclusion and references","textShapes":6}
+{"kind":"textbox","id":"sh/ed8bat47","slide":13,"name":"slide-title","text":"Conclusion and references","textPreview":"Conclusion and references","textChars":25,"textLines":1,"bbox":[62,42,805,48]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":13,"name":"section-label","text":"CLOSE","textPreview":"CLOSE","textChars":5,"textLines":1,"bbox":[64,92,260,20]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":13,"name":"title-rule","bbox":[64,116,720,0]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":13,"name":"conclusion","text":"Mid-term conclusion\n- The end-to-end prototype is substantially implemented.\n- Multi-modal fusion improves key validation metrics over the image-only baseline.\n- The remaining work is evaluation polish, app testing, report writing and deployment extension.","textPreview":"Mid-term conclusion | - The end-to-end prototype is substantially implemented. | - Multi-modal fusion improves key validation metrics ove...","textChars":256,"textLines":4,"bbox":[64,136,400,122]}
+{"kind":"shape","id":"sh/eloj2t83","slide":13,"name":"panel-What still needs to be achieved","bbox":[492,136,330,92]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":13,"name":"head-What still needs to be achieved","text":"What still needs to be achieved","textPreview":"What still needs to be achieved","textChars":31,"textLines":1,"bbox":[504,146,306,22]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":13,"name":"copy-What still needs to be achieved","text":"Select an operating threshold, add stronger app testing evidence, finalise dissertation figures, and decide whether ONNX/local inference is included as an extension.","textPreview":"Select an operating threshold, add stronger app testing evidence, finalise dissertation figures, and decide whether ONNX/local inference ...","textChars":165,"textLines":1,"bbox":[504,171,306,50]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":13,"name":"refs","text":"References\n1. He, K. et al. (2016) Deep Residual Learning for Image Recognition. CVPR.\n2. Esteva, A. et al. (2017) Dermatologist-level classification of skin cancer with deep neural networks. Nature.\n3. ISIC Challenge Datasets. International Skin Imaging Collaboration.\n4. Results from the 2020 SIIM-ISIC Melanoma Classification Challenge. Open access article.\n5. Project source code, log-book and formal experiment CSV outputs.","textPreview":"References | 1. He, K. et al. (2016) Deep Residual Learning for Image Recognition. CVPR. | 2. Esteva, A. et al. (2017) Dermatologist-leve...","textChars":428,"textLines":6,"bbox":[64,270,770,132]}
+{"kind":"notes","id":"nt/lwval87e","slide":13,"text":""}
