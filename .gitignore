@@ -1,6 +1,8 @@
 .DS_Store
 ~$*
 *.inspect.ndjson
+*.pptx
+presentation assessment criteria.pdf
 
 # Local environments and secrets
 .env
