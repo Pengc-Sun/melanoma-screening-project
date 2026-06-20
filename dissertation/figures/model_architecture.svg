@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <defs>
+    <style>
+      .t{font-family:Arial,sans-serif;fill:#172a46}.h{font-size:28px;font-weight:700}.b{font-size:22px}.s{font-size:18px;fill:#40536d}.box{fill:#f2f6fb;stroke:#52749d;stroke-width:3}.accent{fill:#e8f5ee;stroke:#3f7b59;stroke-width:3}.out{fill:#fff2dc;stroke:#ad6c18;stroke-width:3}.arrow{stroke:#40536d;stroke-width:4;fill:none;marker-end:url(#m)}
+    </style>
+    <marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#40536d"/></marker>
+  </defs>
+  <text x="600" y="45" text-anchor="middle" class="t h">Feature-level multi-modal fusion architecture</text>
+  <rect x="55" y="110" width="230" height="115" rx="16" class="box"/>
+  <text x="170" y="155" text-anchor="middle" class="t b">Dermoscopic image</text><text x="170" y="190" text-anchor="middle" class="t s">RGB, 224 x 224</text>
+  <rect x="365" y="110" width="250" height="115" rx="16" class="box"/>
+  <text x="490" y="155" text-anchor="middle" class="t b">ResNet50 branch</text><text x="490" y="190" text-anchor="middle" class="t s">pretrained image features</text>
+  <path d="M285 168 L355 168" class="arrow"/>
+  <rect x="55" y="355" width="230" height="135" rx="16" class="box"/>
+  <text x="170" y="400" text-anchor="middle" class="t b">Clinical metadata</text><text x="170" y="435" text-anchor="middle" class="t s">age + sex + site</text><text x="170" y="465" text-anchor="middle" class="t s">12-dimensional vector</text>
+  <rect x="365" y="365" width="250" height="115" rx="16" class="box"/>
+  <text x="490" y="410" text-anchor="middle" class="t b">MLP branch</text><text x="490" y="445" text-anchor="middle" class="t s">128-dimensional feature</text>
+  <path d="M285 423 L355 423" class="arrow"/>
+  <rect x="720" y="235" width="210" height="120" rx="16" class="accent"/>
+  <text x="825" y="282" text-anchor="middle" class="t b">Concatenation</text><text x="825" y="320" text-anchor="middle" class="t s">feature-level fusion</text>
+  <path d="M615 168 C680 168 670 270 710 285" class="arrow"/>
+  <path d="M615 423 C680 423 670 330 710 305" class="arrow"/>
+  <rect x="1000" y="235" width="155" height="120" rx="16" class="out"/>
+  <text x="1077" y="280" text-anchor="middle" class="t b">Classifier</text><text x="1077" y="315" text-anchor="middle" class="t s">benign /</text><text x="1077" y="342" text-anchor="middle" class="t s">malignant risk</text>
+  <path d="M930 295 L990 295" class="arrow"/>
+  <text x="600" y="570" text-anchor="middle" class="t s">The image-only baseline removes the lower metadata branch and classifies from ResNet50 features alone.</text>
+</svg>

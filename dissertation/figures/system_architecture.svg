@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="610" viewBox="0 0 1400 610">
+  <defs>
+    <style>.t{font-family:Arial,sans-serif;fill:#172a46}.h{font-size:30px;font-weight:700}.b{font-size:22px;font-weight:700}.s{font-size:18px;fill:#40536d}.box{fill:#f2f6fb;stroke:#52749d;stroke-width:3}.db{fill:#fff2dc;stroke:#ad6c18;stroke-width:3}.ml{fill:#e8f5ee;stroke:#3f7b59;stroke-width:3}.arrow{stroke:#40536d;stroke-width:4;fill:none;marker-end:url(#m)}</style>
+    <marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#40536d"/></marker>
+  </defs>
+  <text x="700" y="48" text-anchor="middle" class="t h">End-to-end prototype architecture</text>
+  <rect x="45" y="165" width="235" height="175" rx="16" class="box"/>
+  <text x="162" y="210" text-anchor="middle" class="t b">Flutter client</text><text x="162" y="250" text-anchor="middle" class="t s">image capture/upload</text><text x="162" y="280" text-anchor="middle" class="t s">clinical form</text><text x="162" y="310" text-anchor="middle" class="t s">result and history</text>
+  <rect x="390" y="165" width="235" height="175" rx="16" class="box"/>
+  <text x="507" y="210" text-anchor="middle" class="t b">FastAPI service</text><text x="507" y="250" text-anchor="middle" class="t s">JWT authentication</text><text x="507" y="280" text-anchor="middle" class="t s">input validation</text><text x="507" y="310" text-anchor="middle" class="t s">/predict, /history</text>
+  <rect x="735" y="165" width="235" height="175" rx="16" class="ml"/>
+  <text x="852" y="210" text-anchor="middle" class="t b">PyTorch inference</text><text x="852" y="250" text-anchor="middle" class="t s">aligned preprocessing</text><text x="852" y="280" text-anchor="middle" class="t s">multi-modal model</text><text x="852" y="310" text-anchor="middle" class="t s">risk probability</text>
+  <rect x="1080" y="165" width="235" height="175" rx="16" class="db"/>
+  <text x="1197" y="210" text-anchor="middle" class="t b">SQLite</text><text x="1197" y="250" text-anchor="middle" class="t s">user accounts</text><text x="1197" y="280" text-anchor="middle" class="t s">prediction_history</text><text x="1197" y="310" text-anchor="middle" class="t s">prototype persistence</text>
+  <path d="M280 230 L380 230" class="arrow"/><path d="M625 230 L725 230" class="arrow"/><path d="M970 275 L1070 275" class="arrow"/>
+  <path d="M735 320 C670 430 335 430 280 320" class="arrow"/>
+  <path d="M1080 330 C960 515 430 515 280 335" class="arrow"/>
+  <text x="330" y="205" text-anchor="middle" class="t s">HTTPS/JSON</text><text x="680" y="205" text-anchor="middle" class="t s">tensor inputs</text><text x="1025" y="250" text-anchor="middle" class="t s">write</text>
+  <text x="500" y="460" text-anchor="middle" class="t s">prediction JSON: label, probability, top-k output and medical disclaimer</text>
+  <text x="700" y="535" text-anchor="middle" class="t s">The deployed system is an educational screening prototype, not a validated diagnostic device.</text>
+</svg>

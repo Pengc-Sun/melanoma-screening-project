@@ -9,18 +9,18 @@
 <text class="label" x="70" y="375">True malignant</text>
 <rect x="210" y="130" width="160" height="160" fill="rgb(118,122,255)" stroke="#ffffff"/>
 <text class="panel-title" x="268" y="186">TN</text>
-<text class="metric" x="255" y="232">5,916</text>
-<text class="tick" x="264" y="262">89.3%</text>
-<rect x="370" y="130" width="160" height="160" fill="rgb(235,239,255)" stroke="#ffffff"/>
+<text class="metric" x="255" y="232">5,519</text>
+<text class="tick" x="264" y="262">83.3%</text>
+<rect x="370" y="130" width="160" height="160" fill="rgb(225,229,255)" stroke="#ffffff"/>
 <text class="panel-title" x="428" y="186">FP</text>
-<text class="metric" x="415" y="232">592</text>
-<text class="tick" x="424" y="262">8.9%</text>
-<rect x="210" y="290" width="160" height="160" fill="rgb(247,251,255)" stroke="#ffffff"/>
+<text class="metric" x="415" y="232">989</text>
+<text class="tick" x="424" y="262">14.9%</text>
+<rect x="210" y="290" width="160" height="160" fill="rgb(248,252,255)" stroke="#ffffff"/>
 <text class="panel-title" x="268" y="346">FN</text>
-<text class="metric" x="255" y="392">57</text>
-<text class="tick" x="264" y="422">0.9%</text>
+<text class="metric" x="255" y="392">42</text>
+<text class="tick" x="264" y="422">0.6%</text>
 <rect x="370" y="290" width="160" height="160" fill="rgb(247,251,255)" stroke="#ffffff"/>
 <text class="panel-title" x="428" y="346">TP</text>
-<text class="metric" x="415" y="392">60</text>
-<text class="tick" x="424" y="422">0.9%</text>
+<text class="metric" x="415" y="392">75</text>
+<text class="tick" x="424" y="422">1.1%</text>
 </svg>

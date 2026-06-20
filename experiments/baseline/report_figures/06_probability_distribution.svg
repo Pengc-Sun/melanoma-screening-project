@@ -8,44 +8,44 @@
 <line class="grid" x1="90" y1="485.0" x2="880" y2="485.0"/>
 <text class="tick" x="32" y="490.0">0</text>
 <line class="grid" x1="90" y1="407.0" x2="880" y2="407.0"/>
-<text class="tick" x="32" y="412.0">570</text>
+<text class="tick" x="32" y="412.0">430</text>
 <line class="grid" x1="90" y1="329.0" x2="880" y2="329.0"/>
-<text class="tick" x="32" y="334.0">1,140</text>
+<text class="tick" x="32" y="334.0">861</text>
 <line class="grid" x1="90" y1="251.0" x2="880" y2="251.0"/>
-<text class="tick" x="32" y="256.0">1,711</text>
+<text class="tick" x="32" y="256.0">1,291</text>
 <line class="grid" x1="90" y1="173.0" x2="880" y2="173.0"/>
-<text class="tick" x="32" y="178.0">2,281</text>
+<text class="tick" x="32" y="178.0">1,722</text>
 <line class="grid" x1="90" y1="95.0" x2="880" y2="95.0"/>
-<text class="tick" x="32" y="100.0">2,852</text>
+<text class="tick" x="32" y="100.0">2,153</text>
 <rect x="96.0" y="95.0" width="31.5" height="390.0" fill="#2563eb"/>
-<rect x="131.5" y="484.3" width="31.5" height="0.7" fill="#dc2626"/>
+<rect x="131.5" y="484.5" width="31.5" height="0.5" fill="#dc2626"/>
 <text class="tick" x="99.0" y="511">0.0</text>
-<rect x="175.0" y="326.8" width="31.5" height="158.2" fill="#2563eb"/>
-<rect x="210.5" y="484.7" width="31.5" height="0.3" fill="#dc2626"/>
+<rect x="175.0" y="268.7" width="31.5" height="216.3" fill="#2563eb"/>
+<rect x="210.5" y="484.6" width="31.5" height="0.4" fill="#dc2626"/>
 <text class="tick" x="178.0" y="511">0.1</text>
-<rect x="254.0" y="374.8" width="31.5" height="110.2" fill="#2563eb"/>
-<rect x="289.5" y="482.7" width="31.5" height="2.3" fill="#dc2626"/>
+<rect x="254.0" y="326.5" width="31.5" height="158.5" fill="#2563eb"/>
+<rect x="289.5" y="483.9" width="31.5" height="1.1" fill="#dc2626"/>
 <text class="tick" x="257.0" y="511">0.2</text>
-<rect x="333.0" y="396.5" width="31.5" height="88.5" fill="#2563eb"/>
-<rect x="368.5" y="483.1" width="31.5" height="1.9" fill="#dc2626"/>
+<rect x="333.0" y="359.3" width="31.5" height="125.7" fill="#2563eb"/>
+<rect x="368.5" y="483.2" width="31.5" height="1.8" fill="#dc2626"/>
 <text class="tick" x="336.0" y="511">0.3</text>
-<rect x="412.0" y="422.9" width="31.5" height="62.1" fill="#2563eb"/>
-<rect x="447.5" y="482.4" width="31.5" height="2.6" fill="#dc2626"/>
+<rect x="412.0" y="375.8" width="31.5" height="109.2" fill="#2563eb"/>
+<rect x="447.5" y="481.2" width="31.5" height="3.8" fill="#dc2626"/>
 <text class="tick" x="415.0" y="511">0.4</text>
-<rect x="491.0" y="438.5" width="31.5" height="46.5" fill="#2563eb"/>
-<rect x="526.5" y="482.0" width="31.5" height="3.0" fill="#dc2626"/>
+<rect x="491.0" y="400.9" width="31.5" height="84.1" fill="#2563eb"/>
+<rect x="526.5" y="481.2" width="31.5" height="3.8" fill="#dc2626"/>
 <text class="tick" x="494.0" y="511">0.5</text>
-<rect x="570.0" y="461.8" width="31.5" height="23.2" fill="#2563eb"/>
-<rect x="605.5" y="481.9" width="31.5" height="3.1" fill="#dc2626"/>
+<rect x="570.0" y="428.1" width="31.5" height="56.9" fill="#2563eb"/>
+<rect x="605.5" y="480.8" width="31.5" height="4.2" fill="#dc2626"/>
 <text class="tick" x="573.0" y="511">0.6</text>
-<rect x="649.0" y="474.7" width="31.5" height="10.3" fill="#2563eb"/>
-<rect x="684.5" y="483.8" width="31.5" height="1.2" fill="#dc2626"/>
+<rect x="649.0" y="454.0" width="31.5" height="31.0" fill="#2563eb"/>
+<rect x="684.5" y="481.6" width="31.5" height="3.4" fill="#dc2626"/>
 <text class="tick" x="652.0" y="511">0.7</text>
-<rect x="728.0" y="484.0" width="31.5" height="1.0" fill="#2563eb"/>
-<rect x="763.5" y="484.2" width="31.5" height="0.8" fill="#dc2626"/>
+<rect x="728.0" y="478.1" width="31.5" height="6.9" fill="#2563eb"/>
+<rect x="763.5" y="483.2" width="31.5" height="1.8" fill="#dc2626"/>
 <text class="tick" x="731.0" y="511">0.8</text>
-<rect x="807.0" y="485.0" width="31.5" height="0.0" fill="#2563eb"/>
-<rect x="842.5" y="485.0" width="31.5" height="0.0" fill="#dc2626"/>
+<rect x="807.0" y="484.6" width="31.5" height="0.4" fill="#2563eb"/>
+<rect x="842.5" y="484.6" width="31.5" height="0.4" fill="#dc2626"/>
 <text class="tick" x="810.0" y="511">0.9</text>
 <line class="axis" x1="90" y1="485" x2="880" y2="485"/>
 <line class="axis" x1="90" y1="95" x2="90" y2="485"/>

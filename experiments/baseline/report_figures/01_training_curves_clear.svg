@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="980" viewBox="0 0 1120 980">
 <rect width="100%" height="100%" fill="#ffffff"/>
 <style>text{font-family:Arial,sans-serif;fill:#111827}.title{font-size:26px;font-weight:700}.subtitle{font-size:16px;fill:#4b5563}.section{font-size:20px;font-weight:700}.panel-title{font-size:19px;font-weight:700}.tick{font-size:13px;fill:#4b5563}.label{font-size:15px}.label-strong{font-size:18px;font-weight:700}.value{font-size:15px;font-weight:700}.metric{font-size:28px;font-weight:700}.metric-label{font-size:14px;fill:#4b5563}.note{font-size:18px;font-weight:700;fill:#991b1b}.grid{stroke:#e5e7eb;stroke-width:1}.axis{stroke:#d1d5db;stroke-width:1}</style>
-<text class="title" x="70" y="42">ISIC2020 ResNet50 image-only baseline validation, image_size=224, epochs=8: Training Curves</text>
-<text class="subtitle" x="70" y="68">Validation AUC is the main model-selection metric for this imbalanced binary task.</text>
+<text class="title" x="70" y="42">ISIC2020 Image-Only ResNet50 Baseline, image_size=224, epochs=8: Training Curves</text>
+<text class="subtitle" x="70" y="68">Formal saved-model AUC 0.8552 at epoch 7 (also the historical peak).</text>
 <line x1="780" y1="42" x2="825" y2="42" stroke="#2563eb" stroke-width="3"/>
 <text class="label" x="835" y="47">train</text>
 <line x1="900" y1="42" x2="945" y2="42" stroke="#dc2626" stroke-width="3"/>
@@ -14,33 +14,33 @@
 <line class="grid" x1="120" y1="268.0" x2="970" y2="268.0"/>
 <text class="tick" x="62" y="273.0">0.13</text>
 <line class="grid" x1="120" y1="226.0" x2="970" y2="226.0"/>
-<text class="tick" x="62" y="231.0">0.26</text>
+<text class="tick" x="62" y="231.0">0.25</text>
 <line class="grid" x1="120" y1="184.0" x2="970" y2="184.0"/>
 <text class="tick" x="62" y="189.0">0.38</text>
 <line class="grid" x1="120" y1="142.0" x2="970" y2="142.0"/>
 <text class="tick" x="62" y="147.0">0.51</text>
 <line class="grid" x1="120" y1="100.0" x2="970" y2="100.0"/>
-<text class="tick" x="62" y="105.0">0.64</text>
+<text class="tick" x="62" y="105.0">0.63</text>
 <text class="tick" x="120" y="338">epoch 1</text>
 <text class="tick" x="904" y="338">epoch 8</text>
-<polyline points="120.0,127.4 241.4,147.9 362.9,156.3 484.3,158.1 605.7,165.2 727.1,167.6 848.6,169.2 970.0,168.1" fill="none" stroke="#2563eb" stroke-width="3"/>
+<polyline points="120.0,127.4 241.4,146.9 362.9,155.4 484.3,160.4 605.7,161.4 727.1,163.9 848.6,163.0 970.0,164.8" fill="none" stroke="#2563eb" stroke-width="3"/>
 <circle cx="120.0" cy="127.4" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="241.4" cy="147.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="362.9" cy="156.3" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="484.3" cy="158.1" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="605.7" cy="165.2" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="727.1" cy="167.6" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="848.6" cy="169.2" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="970.0" cy="168.1" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<polyline points="120.0,198.1 241.4,198.2 362.9,220.9 484.3,202.2 605.7,226.3 727.1,206.0 848.6,239.9 970.0,223.1" fill="none" stroke="#dc2626" stroke-width="3"/>
-<circle cx="120.0" cy="198.1" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="241.4" cy="198.2" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="362.9" cy="220.9" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="484.3" cy="202.2" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="605.7" cy="226.3" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="727.1" cy="206.0" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="848.6" cy="239.9" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="970.0" cy="223.1" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="241.4" cy="146.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="362.9" cy="155.4" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="484.3" cy="160.4" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="605.7" cy="161.4" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="727.1" cy="163.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="848.6" cy="163.0" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="970.0" cy="164.8" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<polyline points="120.0,190.0 241.4,212.1 362.9,212.9 484.3,223.7 605.7,220.9 727.1,225.3 848.6,194.8 970.0,225.8" fill="none" stroke="#dc2626" stroke-width="3"/>
+<circle cx="120.0" cy="190.0" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="241.4" cy="212.1" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="362.9" cy="212.9" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="484.3" cy="223.7" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="605.7" cy="220.9" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="727.1" cy="225.3" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="848.6" cy="194.8" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="970.0" cy="225.8" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
 <text class="panel-title" x="120" y="368">Training and Validation AUC</text>
 <rect x="120" y="390" width="850" height="210" fill="#ffffff" stroke="#d1d5db"/>
 <line class="grid" x1="120" y1="600.0" x2="970" y2="600.0"/>
@@ -57,58 +57,59 @@
 <text class="tick" x="62" y="395.0">0.90</text>
 <text class="tick" x="120" y="628">epoch 1</text>
 <text class="tick" x="904" y="628">epoch 8</text>
-<polyline points="120.0,536.7 241.4,463.1 362.9,446.0 484.3,444.7 605.7,425.4 727.1,429.9 848.6,428.9 970.0,424.3" fill="none" stroke="#2563eb" stroke-width="3"/>
-<circle cx="120.0" cy="536.7" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="241.4" cy="463.1" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="362.9" cy="446.0" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="484.3" cy="444.7" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="605.7" cy="425.4" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="727.1" cy="429.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="848.6" cy="428.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="970.0" cy="424.3" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<polyline points="120.0,464.3 241.4,453.6 362.9,445.6 484.3,437.5 605.7,433.0 727.1,425.7 848.6,421.7 970.0,423.9" fill="none" stroke="#dc2626" stroke-width="3"/>
-<circle cx="120.0" cy="464.3" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="241.4" cy="453.6" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="362.9" cy="445.6" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="484.3" cy="437.5" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="605.7" cy="433.0" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="727.1" cy="425.7" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="848.6" cy="421.7" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="970.0" cy="423.9" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="848.6" cy="421.7" r="7" fill="none" stroke="#111827" stroke-width="2"/>
-<text class="value" x="745.0" y="414.0">Best val AUC 0.8578 at epoch 7</text>
+<polyline points="120.0,535.5 241.4,465.5 362.9,450.3 484.3,437.9 605.7,431.2 727.1,429.4 848.6,429.9 970.0,427.5" fill="none" stroke="#2563eb" stroke-width="3"/>
+<circle cx="120.0" cy="535.5" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="241.4" cy="465.5" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="362.9" cy="450.3" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="484.3" cy="437.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="605.7" cy="431.2" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="727.1" cy="429.4" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="848.6" cy="429.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="970.0" cy="427.5" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<polyline points="120.0,464.9 241.4,445.4 362.9,437.4 484.3,430.7 605.7,431.1 727.1,426.3 848.6,422.3 970.0,422.5" fill="none" stroke="#dc2626" stroke-width="3"/>
+<circle cx="120.0" cy="464.9" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="241.4" cy="445.4" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="362.9" cy="437.4" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="484.3" cy="430.7" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="605.7" cy="431.1" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="727.1" cy="426.3" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="848.6" cy="422.3" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="970.0" cy="422.5" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="848.6" cy="422.3" r="7" fill="none" stroke="#111827" stroke-width="2"/>
+<text class="value" x="715.0" y="414.0">Historical peak 0.8552 at epoch 7</text>
+<rect x="841.6" y="415.3" width="14" height="14" fill="none" stroke="#047857" stroke-width="3"/>
 <text class="panel-title" x="120" y="658">Training and Validation Accuracy</text>
 <rect x="120" y="680" width="850" height="210" fill="#ffffff" stroke="#d1d5db"/>
 <line class="grid" x1="120" y1="890.0" x2="970" y2="890.0"/>
-<text class="tick" x="62" y="895.0">0.79</text>
+<text class="tick" x="62" y="895.0">0.76</text>
 <line class="grid" x1="120" y1="848.0" x2="970" y2="848.0"/>
-<text class="tick" x="62" y="853.0">0.83</text>
+<text class="tick" x="62" y="853.0">0.81</text>
 <line class="grid" x1="120" y1="806.0" x2="970" y2="806.0"/>
-<text class="tick" x="62" y="811.0">0.87</text>
+<text class="tick" x="62" y="811.0">0.86</text>
 <line class="grid" x1="120" y1="764.0" x2="970" y2="764.0"/>
 <text class="tick" x="62" y="769.0">0.91</text>
 <line class="grid" x1="120" y1="722.0" x2="970" y2="722.0"/>
-<text class="tick" x="62" y="727.0">0.96</text>
+<text class="tick" x="62" y="727.0">0.95</text>
 <line class="grid" x1="120" y1="680.0" x2="970" y2="680.0"/>
 <text class="tick" x="62" y="685.0">1.00</text>
 <text class="tick" x="120" y="918">epoch 1</text>
 <text class="tick" x="904" y="918">epoch 8</text>
-<polyline points="120.0,707.2 241.4,743.8 362.9,776.9 484.3,778.0 605.7,785.7 727.1,777.4 848.6,792.9 970.0,787.1" fill="none" stroke="#2563eb" stroke-width="3"/>
-<circle cx="120.0" cy="707.2" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="241.4" cy="743.8" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="362.9" cy="776.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="484.3" cy="778.0" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="605.7" cy="785.7" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="727.1" cy="777.4" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="848.6" cy="792.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<circle cx="970.0" cy="787.1" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
-<polyline points="120.0,726.4 241.4,780.6 362.9,757.1 484.3,809.6 605.7,756.5 727.1,811.2 848.6,741.2 970.0,776.5" fill="none" stroke="#dc2626" stroke-width="3"/>
-<circle cx="120.0" cy="726.4" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="241.4" cy="780.6" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="362.9" cy="757.1" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="484.3" cy="809.6" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="605.7" cy="756.5" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="727.1" cy="811.2" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="848.6" cy="741.2" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
-<circle cx="970.0" cy="776.5" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<polyline points="120.0,708.2 241.4,738.4 362.9,751.2 484.3,766.9 605.7,775.7 727.1,779.9 848.6,779.4 970.0,782.5" fill="none" stroke="#2563eb" stroke-width="3"/>
+<circle cx="120.0" cy="708.2" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="241.4" cy="738.4" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="362.9" cy="751.2" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="484.3" cy="766.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="605.7" cy="775.7" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="727.1" cy="779.9" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="848.6" cy="779.4" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="970.0" cy="782.5" r="4" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<polyline points="120.0,740.9 241.4,745.8 362.9,763.3 484.3,752.5 605.7,757.5 727.1,759.8 848.6,818.7 970.0,756.8" fill="none" stroke="#dc2626" stroke-width="3"/>
+<circle cx="120.0" cy="740.9" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="241.4" cy="745.8" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="362.9" cy="763.3" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="484.3" cy="752.5" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="605.7" cy="757.5" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="727.1" cy="759.8" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="848.6" cy="818.7" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="970.0" cy="756.8" r="4" fill="#dc2626" stroke="white" stroke-width="1.5"/>
 </svg>

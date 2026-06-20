@@ -1,0 +1,61 @@
+@page {
+  size: A4;
+  margin: 24mm 22mm 24mm 28mm;
+  @bottom-center { content: counter(page); font-size: 9pt; color: #555; }
+}
+
+html { font-size: 11pt; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.55;
+  color: #1b1f23;
+  max-width: 170mm;
+  margin: 0 auto;
+  counter-reset: figure table;
+}
+#title-block-header {
+  min-height: 230mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  page-break-after: always;
+}
+#title-block-header h1.title { border: 0; page-break-before: avoid; font-size: 26pt; line-height: 1.25; }
+#title-block-header .author { font-size: 15pt; margin-top: 14mm; }
+#title-block-header .date { font-size: 12pt; }
+#TOC { page-break-after: always; }
+#TOC > ul { columns: 1; }
+.draft-meta { min-height: 225mm; }
+.draft-meta h1 { page-break-before: avoid; margin-top: 15mm; }
+h1, h2, h3, h4 { color: #172a46; page-break-after: avoid; }
+h1 { font-size: 21pt; margin-top: 0; padding-top: 4mm; border-bottom: 1.2pt solid #b7c4d6; page-break-before: always; }
+h1:first-of-type { page-break-before: avoid; }
+h2 { font-size: 15pt; margin-top: 8mm; }
+h3 { font-size: 12pt; margin-top: 6mm; }
+p { text-align: justify; orphans: 3; widows: 3; }
+a { color: #174c87; text-decoration: none; }
+table { border-collapse: collapse; width: 100%; margin: 5mm 0 7mm; font-size: 9.2pt; page-break-inside: avoid; }
+th { background: #eaf0f7; color: #172a46; font-weight: 700; }
+th, td { border: 0.6pt solid #aeb8c5; padding: 2.2mm 2mm; vertical-align: top; }
+caption { caption-side: top; text-align: left; font-weight: 700; color: #172a46; margin-bottom: 2mm; }
+figure { margin: 7mm auto; text-align: center; page-break-inside: avoid; }
+figure img { max-width: 100%; max-height: 205mm; }
+figcaption { font-size: 9pt; text-align: left; color: #333; margin-top: 2mm; }
+blockquote { border-left: 3pt solid #7893b8; background: #f4f7fb; margin: 5mm 0; padding: 3mm 5mm; }
+code { font-family: "SFMono-Regular", Consolas, monospace; font-size: 0.9em; }
+pre { background: #f5f7f9; border: 0.6pt solid #ccd4dd; padding: 4mm; overflow-wrap: anywhere; white-space: pre-wrap; font-size: 8.8pt; }
+.title-page { height: 235mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
+.title-page h1 { page-break-before: avoid; border: 0; font-size: 26pt; line-height: 1.25; }
+.title-page .institution { font-size: 18pt; color: #172a46; margin-bottom: 15mm; }
+.title-page .meta { margin-top: 18mm; font-size: 12pt; line-height: 1.8; }
+.draft-banner { border: 1pt solid #b7791f; background: #fffaf0; padding: 3mm; margin: 8mm auto; width: 75%; color: #7b4f10; font-weight: bold; }
+.page-break { page-break-after: always; }
+.note { border: 0.8pt solid #bd7a00; background: #fff8e6; padding: 4mm; margin: 5mm 0; font-size: 9.5pt; }
+.evidence { border: 0.8pt solid #4f7d61; background: #eff8f2; padding: 4mm; margin: 5mm 0; font-size: 9.5pt; }
+.toc ul { list-style: none; padding-left: 0; }
+.toc ul ul { padding-left: 6mm; }
+.small { font-size: 9pt; }
+.references { font-size: 9.5pt; }
+.references p { text-align: left; }
+img[src$=".svg"] { width: 100%; }

@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430">
 <rect width="100%" height="100%" fill="#ffffff"/>
 <style>text{font-family:Arial,sans-serif;fill:#111827}.title{font-size:26px;font-weight:700}.subtitle{font-size:16px;fill:#4b5563}.section{font-size:20px;font-weight:700}.panel-title{font-size:19px;font-weight:700}.tick{font-size:13px;fill:#4b5563}.label{font-size:15px}.label-strong{font-size:18px;font-weight:700}.value{font-size:15px;font-weight:700}.metric{font-size:28px;font-weight:700}.metric-label{font-size:14px;fill:#4b5563}.note{font-size:18px;font-weight:700;fill:#991b1b}.grid{stroke:#e5e7eb;stroke-width:1}.axis{stroke:#d1d5db;stroke-width:1}</style>
-<text class="title" x="60" y="46">ISIC2020 ResNet50 image-only baseline validation, image_size=224, epochs=8: Evaluation Summary</text>
+<text class="title" x="60" y="46">ISIC2020 Image-Only ResNet50 Baseline, image_size=224, epochs=8: Evaluation Summary</text>
 <text class="subtitle" x="60" y="74">Primary metrics for imbalanced malignant-vs-benign classification.</text>
 <rect x="60" y="120" width="240" height="92" fill="#f9fafb" stroke="#d1d5db" rx="6"/>
 <text class="metric-label" x="78" y="150">AUC</text>
-<text class="metric" x="78" y="188">0.8550</text>
+<text class="metric" x="78" y="188">0.8552</text>
 <rect x="325" y="120" width="240" height="92" fill="#f9fafb" stroke="#d1d5db" rx="6"/>
 <text class="metric-label" x="343" y="150">AP</text>
-<text class="metric" x="343" y="188">0.1277</text>
+<text class="metric" x="343" y="188">0.1306</text>
 <rect x="590" y="120" width="240" height="92" fill="#f9fafb" stroke="#d1d5db" rx="6"/>
 <text class="metric-label" x="608" y="150">Accuracy</text>
-<text class="metric" x="608" y="188">0.9020</text>
+<text class="metric" x="608" y="188">0.8444</text>
 <rect x="855" y="120" width="240" height="92" fill="#f9fafb" stroke="#d1d5db" rx="6"/>
 <text class="metric-label" x="873" y="150">Sensitivity</text>
-<text class="metric" x="873" y="188">0.5128</text>
+<text class="metric" x="873" y="188">0.6410</text>
 <rect x="60" y="245" width="240" height="92" fill="#f9fafb" stroke="#d1d5db" rx="6"/>
 <text class="metric-label" x="78" y="275">Specificity</text>
-<text class="metric" x="78" y="313">0.9090</text>
+<text class="metric" x="78" y="313">0.8480</text>
 <rect x="325" y="245" width="240" height="92" fill="#f9fafb" stroke="#d1d5db" rx="6"/>
 <text class="metric-label" x="343" y="275">F1</text>
-<text class="metric" x="343" y="313">0.1560</text>
+<text class="metric" x="343" y="313">0.1270</text>
 <rect x="590" y="245" width="240" height="92" fill="#f9fafb" stroke="#d1d5db" rx="6"/>
 <text class="metric-label" x="608" y="275">Balanced Acc.</text>
-<text class="metric" x="608" y="313">0.7109</text>
+<text class="metric" x="608" y="313">0.7445</text>
 <rect x="855" y="245" width="240" height="92" fill="#f9fafb" stroke="#d1d5db" rx="6"/>
 <text class="metric-label" x="873" y="275">Total</text>
 <text class="metric" x="873" y="313">6,625</text>

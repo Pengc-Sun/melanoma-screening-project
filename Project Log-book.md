@@ -268,45 +268,12 @@ The selected fusion strategy is feature-level fusion. The model first extracts h
 - Generated training curves, metric summaries, confusion matrices, ROC curves, PR curves, probability distributions and threshold analysis figures.
 - Removed invalid or duplicated result folders to avoid mixing incomplete experiments with formal results.
 
-### Formal Experiment Settings
+### Weekly Outcome
 
-| Item | Baseline | Multi-Modal |
-| ---- | -------- | ----------- |
-| Dataset | ISIC2020 | ISIC2020 |
-| Validation samples | 6,625 | 6,625 |
-| Image size | 224 x 224 | 224 x 224 |
-| Epochs | 8 | 8 |
-| Batch size | 32 | 32 |
-| Learning rate | 1e-4 | 1e-4 |
-| Device | MPS | MPS |
-| Random seed | 42 | 42 |
-
-### Validation Results
-
-| Metric | Image-only Baseline | Multi-Modal Model |
-| ------ | ------------------- | ----------------- |
-| Accuracy | 0.9020 | 0.9197 |
-| AUC | 0.8550 | 0.8742 |
-| Average Precision | 0.1277 | 0.1519 |
-| Malignant Recall | 0.5128 | 0.5385 |
-| Specificity | 0.9090 | 0.9266 |
-| Malignant Precision | 0.0920 | 0.1165 |
-| Malignant F1-score | 0.1560 | 0.1915 |
-| Balanced Accuracy | 0.7109 | 0.7325 |
-
-### Confusion Matrix Results
-
-| Model | TN | FP | FN | TP |
-| ----- | -- | -- | -- | -- |
-| Image-only Baseline | 5916 | 592 | 57 | 60 |
-| Multi-Modal Model | 6030 | 478 | 54 | 63 |
-
-### Observations
-
-- The multi-modal model outperformed the image-only baseline on AUC, Average Precision, malignant recall, specificity, F1-score and balanced accuracy.
-- Accuracy alone is not sufficient because the dataset is strongly imbalanced.
-- The multi-modal model reduced false positives and slightly reduced false negatives compared with the baseline.
-- The improvement supports the project hypothesis that clinical metadata can provide useful supplementary information for melanoma screening.
+- Completed the formal comparison of the image-only baseline and multi-modal model under the same experimental conditions.
+- Confirmed that the multi-modal model achieved stronger overall melanoma-screening performance than the baseline.
+- Identified class imbalance as the main reason that accuracy alone could not represent model quality.
+- Recorded the complete experimental settings, metric tables, confusion matrices, observations and output evidence in **Experiment 1** and **Experiment 2** of the Experiment Log.
 
 ### Next Steps
 
@@ -328,21 +295,11 @@ The selected fusion strategy is feature-level fusion. The model first extracts h
 - Built Flutter screens for learning content, lesion checking and history records.
 - Tested predictions using selected ISIC2020 sample images.
 
-### System Workflow
+### Weekly Outcome
 
-```text
-Flutter App
-   ↓
-Image + Clinical Inputs
-   ↓
-FastAPI Backend
-   ↓
-PyTorch Multi-Modal Model
-   ↓
-Prediction Result
-   ↓
-Result Display + History Record
-```
+- Completed the initial end-to-end connection between the Flutter frontend, FastAPI backend, PyTorch model and SQLite database.
+- Confirmed that users could submit an image and clinical metadata, receive a screening-risk result and retrieve prediction history.
+- Recorded the formal integration-test configuration, verification steps, observations and repository evidence in **Experiment 3** of the Experiment Log.
 
 ### Technical Decisions
 
@@ -393,22 +350,23 @@ Result Display + History Record
 
 ### Results
 
-| Metric | Value |
-| ------ | ----- |
-| Accuracy | 0.9020 |
-| AUC | 0.8550 |
-| Average Precision | 0.1277 |
-| Malignant Recall | 0.5128 |
-| Specificity | 0.9090 |
-| Malignant Precision | 0.0920 |
-| Malignant F1-score | 0.1560 |
-| Balanced Accuracy | 0.7109 |
+| Epoch | Train Loss | Train Accuracy | Train AUC | Validation Loss | Validation Accuracy | Validation AUC |
+| ----- | ---------- | -------------- | --------- | --------------- | ------------------- | -------------- |
+| 1 | 0.55436042 | 0.97241614 | 0.71247779 | 0.33974307 | 0.95290566 | 0.80386533 |
+| 2 | 0.49196863 | 0.93524773 | 0.80547892 | 0.33942070 | 0.89781132 | 0.81741735 |
+| 3 | 0.46648097 | 0.90155088 | 0.82708594 | 0.27058780 | 0.92166038 | 0.82752063 |
+| 4 | 0.46109436 | 0.90045659 | 0.82873274 | 0.32731844 | 0.86837736 | 0.83778413 |
+| 5 | 0.43970694 | 0.89268329 | 0.85299190 | 0.25412653 | 0.92226415 | 0.84341823 |
+| 6 | 0.43223238 | 0.90106034 | 0.84733537 | 0.31562740 | 0.86671698 | 0.85270069 |
+| 7 | 0.42732951 | 0.88528735 | 0.84864188 | 0.21285737 | 0.93781132 | 0.85777662 |
+| 8 | 0.43092054 | 0.89124939 | 0.85447045 | 0.26369456 | 0.90203774 | 0.85499372 |
 
 ### Observations
 
-- The baseline provides a clear image-only comparison point.
-- The model achieves high overall accuracy, but malignant precision and F1-score are limited because of class imbalance.
-- This confirms the need to evaluate medical classification models using more than accuracy.
+- Training loss decreased from 0.5544 to 0.4309, while training AUC increased from 0.7125 to 0.8545 across the eight epochs, showing that the image branch learned progressively.
+- Validation AUC increased from 0.8039 in Epoch 1 to its highest value of 0.8578 in Epoch 7, followed by a small decrease to 0.8550 in Epoch 8.
+- Validation accuracy fluctuated considerably across epochs and reached 0.9020 in the formal final evaluation. However, malignant precision (0.0920) and malignant F1-score (0.1560) remained low because of the severe class imbalance.
+- The baseline therefore provides a valid image-only comparison point, but accuracy alone is not sufficient to describe melanoma-detection performance.
 
 ### Evidence
 
@@ -420,7 +378,7 @@ Formal output directory:
 
 GitHub evidence repository:
 
-[Experiment 1 — Image-Only ResNet50 Baseline](https://github.com/Pengc-Sun/melanoma-screening-project/tree/main/experiments/baseline)
+https://github.com/Pengc-Sun/melanoma-screening-project/tree/main/experiments/baseline
 
 Generated evidence includes:
 
@@ -455,22 +413,23 @@ Generated evidence includes:
 
 ### Results
 
-| Metric | Image-only Baseline | Multi-Modal Model |
-| ------ | ------------------- | ----------------- |
-| Accuracy | 0.9020 | 0.9197 |
-| AUC | 0.8550 | 0.8742 |
-| Average Precision | 0.1277 | 0.1519 |
-| Malignant Recall | 0.5128 | 0.5385 |
-| Specificity | 0.9090 | 0.9266 |
-| Malignant Precision | 0.0920 | 0.1165 |
-| Malignant F1-score | 0.1560 | 0.1915 |
-| Balanced Accuracy | 0.7109 | 0.7325 |
+| Epoch | Train Loss | Train Accuracy | Train AUC | Validation Loss | Validation Accuracy | Validation AUC |
+| ----- | ---------- | -------------- | --------- | --------------- | ------------------- | -------------- |
+| 1 | 0.51130176 | 0.93166296 | 0.76768429 | 0.27758647 | 0.90415094 | 0.84538950 |
+| 2 | 0.45044330 | 0.88287234 | 0.82919075 | 0.25304797 | 0.90294340 | 0.86375349 |
+| 3 | 0.42064115 | 0.87762726 | 0.85761561 | 0.18560028 | 0.94294340 | 0.86036384 |
+| 4 | 0.42303455 | 0.87811781 | 0.85663538 | 0.19314396 | 0.93449057 | 0.86945981 |
+| 5 | 0.41680622 | 0.88434399 | 0.85867949 | 0.22713402 | 0.91969811 | 0.87419823 |
+| 6 | 0.40355983 | 0.87823101 | 0.87601307 | 0.28390110 | 0.86596226 | 0.87284158 |
+| 7 | 0.38545102 | 0.88389117 | 0.88252498 | 0.18453513 | 0.93901887 | 0.87108306 |
+| 8 | 0.38479063 | 0.88321195 | 0.88545797 | 0.20844988 | 0.92241509 | 0.86784313 |
 
 ### Observations
 
-- The multi-modal model improves the main evaluation metrics compared with the baseline.
-- The improvement in AUC, Average Precision and F1-score suggests that clinical metadata provides useful supplementary information.
-- The model remains affected by the class imbalance, so melanoma-focused metrics are important for analysis.
+- Training loss decreased from 0.5113 to 0.3848, while training AUC increased from 0.7677 to 0.8855 across the eight epochs.
+- Validation AUC reached its highest value of 0.8742 in Epoch 5 and then declined slightly to 0.8678 by Epoch 8, indicating that performance had largely plateaued after Epoch 5 and that later training did not improve generalisation.
+- At its best validation point, the multi-modal model outperformed the image-only baseline in AUC (0.8742 vs 0.8550), Average Precision (0.1519 vs 0.1277), malignant recall (0.5385 vs 0.5128) and malignant F1-score (0.1915 vs 0.1560).
+- These improvements suggest that clinical metadata provided useful supplementary information, although the low malignant precision and F1-score show that severe class imbalance remained a limitation.
 
 ### Evidence
 
@@ -482,7 +441,7 @@ Formal output directory:
 
 GitHub evidence repository:
 
-[Experiment 2 — Multi-Modal Fusion Model](https://github.com/Pengc-Sun/melanoma-screening-project/tree/main/experiments/multimodal)
+https://github.com/Pengc-Sun/melanoma-screening-project/tree/main/experiments/multimodal
 
 Generated evidence includes:
 
@@ -528,7 +487,7 @@ Generated evidence includes:
 
 GitHub evidence repository:
 
-[Experiment 3 — Application Integration Test](https://github.com/Pengc-Sun/melanoma-screening-project/tree/main/experiments/application-integration)
+https://github.com/Pengc-Sun/melanoma-screening-project/tree/main/experiments/application-integration
 
 ------
 
